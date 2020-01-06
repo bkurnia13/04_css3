@@ -1,0 +1,56 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.one {
+    border-color: red;
+}
+
+.two {
+    border-color: green;
+    border-radius: 20px;
+}
+
+.three {
+    border-color: blue;
+    border-radius: 40px 0 40px 0;
+}
+
+.four {
+    border-color: yellow;
+    border-radius: 0 40px 0 40px;
+}
+
+.five {
+    border-color: violet;
+    border-radius: 50px 50px 0 0;
+}
+
+.six {
+    border-color: aqua;
+    border-radius: 0 0 50px 50px;
+}
+
+.seven {
+    border-color: salmon;
+    border-radius: 50%;
+}
+
+.eight {
+    border-color: limegreen;
+    margin-top: 60px;
+    height: 50px;
+    border-radius: 0 0 50px 50px;
+}
+
+.nine {
+    border-color: lightskyblue;
+    margin-bottom: 60px;
+    height: 50px;
+    border-radius: 50px 50px 0 0;
+}
