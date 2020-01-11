@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    margin: 5px 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.one {
+    transition: all 2s ease; /* property duration timing_function delay */
+}
+
+.two {
+    transition: all 2s ease-in; /* property duration timing_function delay */
+}
+
+.three {
+    transition: all 2s ease-out; /* property duration timing_function delay */
+}
+
+.four {
+    transition: all 2s ease-in-out; /* property duration timing_function delay */
+}
+
+.five {
+    transition: all 2s linear; /* property duration timing_function delay */
+}
+
+.container:hover .square{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
