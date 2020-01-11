@@ -1,0 +1,46 @@
+p {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 300px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    width: 800px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.one {
+    background-image: linear-gradient(to bottom, #1D2B64, #F8CDDA); /* arah, warna_awal, warna_akhir */
+}
+
+.two {
+    background-image: linear-gradient(to top, #1D2B64, #F8CDDA); /* arah, warna_awal, warna_akhir */
+}
+
+.three {
+    background-image: linear-gradient(to right, #1D2B64, #F8CDDA); /* arah, warna_awal, warna_akhir */
+}
+
+.four {
+    background-image: linear-gradient(to left, #1D2B64, #F8CDDA); /* arah, warna_awal, warna_akhir */
+}
+
+.five {
+    background-image: linear-gradient(to top right, #C6FFDD, #FBD786, #f7797d);
+}
+
+.six {
+    background-image: linear-gradient(to top left, #C6FFDD, #FBD786, #f7797d);
+}
+
+.seven {
+    background-image: linear-gradient(to bottom right, #C6FFDD, #FBD786, #f7797d);
+}
+
+.eight {
+    background-image: linear-gradient(to bottom left, #C6FFDD, #FBD786, #f7797d);
+}
