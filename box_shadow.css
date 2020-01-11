@@ -1,0 +1,7 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto; /* top_bottom right_left */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .75); /* x_offset y_offset blur color */
+}
